@@ -55,21 +55,21 @@ Source code will be released soon.
 (5) Visualization results
 - Caltech101
 <p align="center">
-<img src="./figure/visualization_caltech.png" weight=800>
+<img src="./figure/visualization_caltech.png" weight=600>
 </p>
 - Cars
 <p align="center">
-<img src="./figure/visualization_carsh.png" weight=800>
+<img src="./figure/visualization_cars.png" weight=600>
 </p>
 - Flowers
 <p align="center">
-<img src="./figure/visualization_flowers.png" weight=800>
+<img src="./figure/visualization_flowers.png" weight=600>
 </p>
 - DTD
 <p align="center">
-<img src="./figure/visualization_dtd.png" weight=800>
+<img src="./figure/visualization_dtd.png" weight=600>
 </p>
 - Pets
 <p align="center">
-<img src="./figure/visualization_pets.png" weight=800>
+<img src="./figure/visualization_pets.png" weight=600>
 </p>
