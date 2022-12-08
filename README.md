@@ -29,8 +29,8 @@ Source code will be released soon.
 |  Dataset         |   ResNet-50 |	ResNeXt-50	| WideResNet-50	 |  MobileNet-v2	| Average   |    
 | :----------: | :---------------:|  :---------------:| :---------------:| :---------------:|  :---------------:|  
 |Original    | 19.8  |	18.4 	 | 32.0  |26.2 | 24.1	 |  
-|5x-expanded  by RandAugment |	 43.2 	|  29.6	| 49.2 | 39.7|	40.4 (+9.5)	| 
-|5x-expanded  by GIF-DALLE |	 53.1	|  43.7	| 60.0 | 47.8 |	51.2 (+27.1)	| 
+|Expanded  by RandAugment |	 43.2 	|  29.6	| 49.2 | 39.7|	40.4 (+9.5)	| 
+|Expanded  by GIF-DALLE |	 53.1	|  43.7	| 60.0 | 47.8 |	51.2 (+27.1)	| 
  
 
 (3) Effectiveness on three medical  image datasets based on ResNet50 
