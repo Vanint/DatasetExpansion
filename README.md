@@ -24,16 +24,22 @@ Source code will be released soon.
 | Expanded dataset by  GIF-MAE (ours)    |  58.4 |  44.5	 | 84.4 | 34.2 | 	52.7	 |  52.4  |  54.4 (+23.5) |
 | Expanded dataset by GIF-DALLE (ours) |	63.0|	53.1	|88.2 | 39.5	|54.5|	66.4 | 60.8 (+29.9) | 
 
-(2) Effectiveness on various network architectures based on Cars dataset
+(2) Expansion efficiency based on ResNet50 
+
+<p align="center">
+<img src="./figure/efficiency.png" weight=800>
+</p>
+
+(3) Effectiveness on various network architectures based on Cars dataset
 
 |  Dataset         |   ResNet-50 |	ResNeXt-50	| WideResNet-50	 |  MobileNet-v2	| Average   |    
-| :----------: | :---------------:|  :---------------:| :---------------:| :---------------:|  :---------------:|  
-|Original    | 19.8  |	18.4 	 | 32.0  |26.2 | 24.1	 |  
+|  ----------  | :---------------:|  :---------------:| :---------------:| :---------------:|  :---------------:|  
+|Original dataset   | 19.8  |	18.4 	 | 32.0  |26.2 | 24.1	 |  
 |Expanded  by RandAugment |	 43.2 	|  29.6	| 49.2 | 39.7|	40.4 (+9.5)	| 
 |Expanded  by GIF-DALLE |	 53.1	|  43.7	| 60.0 | 47.8 |	51.2 (+27.1)	| 
  
 
-(3) Effectiveness on three medical  image datasets based on ResNet50 
+(4) Effectiveness on three medical  image datasets based on ResNet50 
 
 |  Dataset          |  PathMNIST |	BreastMNIST	|OrganSMNIST   | Average |
 | ---------- | :---------------:| :---------------:| :---------------:| :---------------:| 
@@ -43,3 +49,27 @@ Source code will be released soon.
 | Expanded dataset by RandAugment    | 79.2 |  68.7	 | 79.6 | 75.8 (+7.6) |
 | Expanded dataset by  GIF-MAE (ours)    | 82.0 |  73.3	 | 80.6 | 78.6 (+10.4) |
 | Expanded dataset by GIF-DALLE (ours) |	 84.4	|  76.6	|  80.5  | 80.5 (+12.3) | 
+
+
+
+(5) Visualization results
+- Caltech101
+<p align="center">
+<img src="./figure/visualization_caltech.png" weight=800>
+</p>
+- Cars
+<p align="center">
+<img src="./figure/visualization_carsh.png" weight=800>
+</p>
+- Flowers
+<p align="center">
+<img src="./figure/visualization_flowers.png" weight=800>
+</p>
+- DTD
+<p align="center">
+<img src="./figure/visualization_dtd.png" weight=800>
+</p>
+- Pets
+<p align="center">
+<img src="./figure/visualization_pets.png" weight=800>
+</p>
