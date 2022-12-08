@@ -1,4 +1,4 @@
-# Datasets Expansion
+# Dataset Expansion
 This is the official repository of [Expanding Small-Scale Datasets with Guided Imagination](https://arxiv.org/pdf/2211.13976.pdf).
 
 ## 1. Abstract
@@ -9,10 +9,18 @@ The power of Deep Neural Networks (DNNs) depends heavily on the training data qu
 <img src="./figure/Introduction.png" weight=800>
 </p>
 
-## 2. Code
+## 2. Method Pipeline
+Please refer to the [paper](https://arxiv.org/pdf/2211.13976.pdf) for more technical details.
+
+
+<p align="center">
+<img src="./figure/pipeline.png" weight=800>
+</p>
+
+## 3. Code
 Source code will be released soon.
 
-## 3. Main Results
+## 4. Main Results
 (1) Effectiveness on six natural image datasets based on ResNet50 
 
 |  Dataset          |  Caltech101	| Cars   |    	Flowers  |    	DTD	  |    CIFAR100-Subset  |    	Pets   | Average |
@@ -52,24 +60,35 @@ Source code will be released soon.
 
 
 
-(5) Visualization results
-- Caltech101
+(5) Visualization of Caltech101
 <p align="center">
-<img src="./figure/visualization_caltech.png" weight=600>
+<img src="./figure/visualization_caltech.png" weight=400>
 </p>
-- Cars
+ 
+(6) Visualization of Flowers
 <p align="center">
-<img src="./figure/visualization_cars.png" weight=600>
+<img src="./figure/visualization_flowers.png" weight=400>
 </p>
-- Flowers
+
+(7) Visualization of DTD
 <p align="center">
-<img src="./figure/visualization_flowers.png" weight=600>
+<img src="./figure/visualization_dtd.png" weight=400>
 </p>
-- DTD
+
+(8) Visualization of Pets
 <p align="center">
-<img src="./figure/visualization_dtd.png" weight=600>
+<img src="./figure/visualization_pets.png" weight=400>
 </p>
-- Pets
-<p align="center">
-<img src="./figure/visualization_pets.png" weight=600>
-</p>
+
+
+
+## 5. Citation
+If you find our work inspiring in your research, please cite our work.
+```
+@article{zhang2022expanding,
+  title={Expanding Small-Scale Datasets with Guided Imagination},
+  author={Zhang, Yifan and Zhou, Daquan and Hooi, Bryan and Wang, Kai and Feng, Jiashi},
+  journal={arXiv preprint arXiv:2211.13976},
+  year={2022}
+}
+``` 
