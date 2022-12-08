@@ -84,6 +84,8 @@ Source code will be released soon.
 
 ## 5. Citation
 If you find our work inspiring in your research, please cite our work.
+
+Yifan Zhang*, Daquan Zhou*, Bryan Hooi, Kai Wang and Jiashi Feng. Expanding Small-Scale Datasets with Guided Imagination.  arXiv, 2022. (*equal contribution)
 ```
 @article{zhang2022expanding,
   title={Expanding Small-Scale Datasets with Guided Imagination},
