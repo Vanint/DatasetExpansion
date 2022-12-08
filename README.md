@@ -24,32 +24,14 @@ Source code will be released soon.
 | Expanded dataset by  GIF-MAE (ours)    |  58.4 |  44.5	 | 84.4 | 34.2 | 	52.7	 |  52.4  |  54.4 (+23.5) |
 | Expanded dataset by GIF-DALLE (ours) |	63.0|	53.1	|88.2 | 39.5	|54.5|	66.4 | 60.8 (+29.9) | 
 
-(2) Effectiveness on various network architectures
+(2) Effectiveness on various network architectures based on Cars dataset
 
-|  Caltech101         |   ResNet-50 |	ResNeXt-50	| WideResNet-50	 |  MobileNet-v2	| Average   |    
-| :----------: | :---------------:|  :---------------:| :---------------:| :---------------:|  :---------------:| 
-| original    | 26.3+/-1.0 |	32.6+/-0.5 | 34.7+/-0.8  | 33.8+/-1.1 | 23.7 |  
-|5x-expanded  by GIF-DALLE |	57.3+/-0.4	|  55.2+/-0.1	|  61.8+/-0.5| 59.4+/-0.7|	58.4 (+34.7)	| 
-| |  | | |  |  |  
-|  **Cars**         |    **ResNet-50** |	 **ResNeXt-50**	|  **WideResNet-50**	 |   **MobileNet-v2**	|  **Average**   |     
-| original    | 19.8+/-0.9 |	18.4+/-0.5	 | 32.0+/-0.8 |26.2+/-4.2| 24.1	 |  
-|5x-expanded  by GIF-DALLE |	 46.3+/-0.6	|  43.7+/-0.2	| 60.0+/-0.6 | 47.8+/-0.6 |	51.2 (+27.1)	| 
-| |  | | |  |  | 
-|  **Flowers**         |    **ResNet-50** |	 **ResNeXt-50**	|  **WideResNet-50**	 |   **MobileNet-v2**	|  **Average**   |     
-| original    | 74.1+/-0.1 |	75.8+/-1.2	 | 79.3+/-1.6   | 85.5+/-1.0| 78.7	 |  
-|5x-expanded  by GIF-DALLE |	 82.8+/-0.5	|  81.6+/-0.4	|  84.6+/-0.2| 88.8+/-0.5|	84.4 (+5.7)	| 
-| |  | | |  |  | 
-|  **DTD**         |    **ResNet-50** |	 **ResNeXt-50**	|  **WideResNet-50**	 |   **MobileNet-v2**	|  **Average**   |     
-| original    | 23.1+/-0.2 |	25.4+/-0.6	 |26.1+/-0.6   |28.1+/-0.9 | 25.7	 |  
-|5x-expanded   by GIF-DALLE |	 31.2+/-0.9	| 30.6+/-0.1	|  35.3+/-0.9| 37.4+/-0.8|	33.6 (+7.9)	| 
-| |  | | |  |  | 
-|  **CIFAR100-S**         |    **ResNet-50** |	 **ResNeXt-50**	|  **WideResNet-50**	 |   **MobileNet-v2**	|  **Average**   |     
-| original     | 35.0+/-3.2 |	36.3+/-2.1	 | 42.0+/-0.3   | 50.9+/-0.2 | 41.1	 |  
-|5x-expanded   by GIF-DALLE |	 54.5+/-1.1	| 52.4+/-0.7	|  55.3+/-0.3 | 56.2+/-0.2  |	54.6 (+13.5)	| 
-| |  | | |  |  | 
-|  **Pets**         |    **ResNet-50** |	 **ResNeXt-50**	|  **WideResNet-50**	 |   **MobileNet-v2**	|  **Average**   |     
-| original     | 6.8+/-1.8 |	19.0+/-1.6	 | 22.1+/-0.5   | 37.5+/-0.4 |  21.4	 |  
-|5x-expanded   by GIF-DALLE |	46.2+/-0.1	|  52.3+/-1.5	|  66.2+/-0.1 | 60.3+/-0.3 |	56.3 (+34.9)|  
+|  Dataset         |   ResNet-50 |	ResNeXt-50	| WideResNet-50	 |  MobileNet-v2	| Average   |    
+| :----------: | :---------------:|  :---------------:| :---------------:| :---------------:|  :---------------:|  
+|Original    | 19.8  |	18.4 	 | 32.0  |26.2 | 24.1	 |  
+|5x-expanded  by RandAugment |	 43.2 	|  29.6	| 49.2 | 39.7|	40.4 (+9.5)	| 
+|5x-expanded  by GIF-DALLE |	 53.1	|  43.7	| 60.0 | 47.8 |	51.2 (+27.1)	| 
+ 
 
 (3) Effectiveness on three medical  image datasets based on ResNet50 
 
