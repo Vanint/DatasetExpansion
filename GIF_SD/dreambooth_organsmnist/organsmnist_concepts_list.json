@@ -1,0 +1,71 @@
+[
+    {
+        "instance_prompt":      "Abdominal CT image of bladder",
+        "class_prompt":         "Abdominal CT image of bladder",
+        "instance_data_dir":    "./data/ori_organsmnist/bladder",
+        "class_data_dir":       "./data/ori_organsmnist/bladder"
+    },
+    {
+        "instance_prompt":      "Abdominal CT image of femur-left",
+        "class_prompt":         "Abdominal CT image of femur-left",
+        "instance_data_dir":    "./data/ori_organsmnist/femur-left",
+        "class_data_dir":       "./data/ori_organsmnist/femur-left" 
+    },
+    {
+        "instance_prompt":      "Abdominal CT image of femur-right",
+        "class_prompt":         "Abdominal CT image of femur-right",
+        "instance_data_dir":    "./data/ori_organsmnist/femur-right",
+        "class_data_dir":       "./data/ori_organsmnist/femur-right" 
+    },
+    {
+        "instance_prompt":      "Abdominal CT image of heart",
+        "class_prompt":         "Abdominal CT image of heart", 
+        "instance_data_dir":    "./data/ori_organsmnist/heart",
+        "class_data_dir":       "./data/ori_organsmnist/heart" 
+    },
+    {
+        "instance_prompt":      "Abdominal CT image of kidney-left",
+        "class_prompt":         "Abdominal CT image of kidney-left", 
+        "instance_data_dir":    "./data/ori_organsmnist/kidney-left",
+        "class_data_dir":       "./data/ori_organsmnist/kidney-left" 
+    },
+    {
+        "instance_prompt":      "Abdominal CT image of kidney-right",
+        "class_prompt":         "Abdominal CT image of kidney-right", 
+        "instance_data_dir":    "./data/ori_organsmnist/kidney-right",
+        "class_data_dir":       "./data/ori_organsmnist/kidney-right" 
+    },
+    {
+        "instance_prompt":      "Abdominal CT image of pancreas",
+        "class_prompt":         "Abdominal CT image of pancreas", 
+        "instance_data_dir":    "./data/ori_organsmnist/pancreas",
+        "class_data_dir":       "./data/ori_organsmnist/pancreas" 
+    },
+    {
+        "instance_prompt":      "Abdominal CT image of liver",
+        "class_prompt":         "Abdominal CT image of liver", 
+        "instance_data_dir":    "./data/ori_organsmnist/liver",
+        "class_data_dir":       "./data/ori_organsmnist/liver" 
+    },
+    {
+        "instance_prompt":      "Abdominal CT image of lung-left",
+        "class_prompt":         "Abdominal CT image of lung-left", 
+        "instance_data_dir":    "./data/ori_organsmnist/lung-left",
+        "class_data_dir":       "./data/ori_organsmnist/lung-left" 
+    },
+    {
+        "instance_prompt":      "Abdominal CT image of lung-right",
+        "class_prompt":         "Abdominal CT image of lung-right", 
+        "instance_data_dir":    "./data/ori_organsmnist/lung-right",
+        "class_data_dir":       "./data/ori_organsmnist/lung-right" 
+    },
+    {
+        "instance_prompt":      "Abdominal CT image of spleen",
+        "class_prompt":         "Abdominal CT image of spleen", 
+        "instance_data_dir":    "./data/ori_organsmnist/spleen",
+        "class_data_dir":       "./data/ori_organsmnist/spleen" 
+    }
+
+
+
+] 

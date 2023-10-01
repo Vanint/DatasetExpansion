@@ -1,0 +1,59 @@
+[
+    {
+        "instance_prompt":      "pathological photo of adipose",
+        "class_prompt":         "pathological photo of adipose",
+        "instance_data_dir":    "./data/pathmnist/adipose",
+        "class_data_dir":       "./data/pathmnist/adipose"
+    },
+    {
+        "instance_prompt":      "pathological photo of background",
+        "class_prompt":         "pathological photo of background",
+        "instance_data_dir":    "./data/pathmnist/background",
+        "class_data_dir":       "./data/pathmnist/background" 
+    },
+    {
+        "instance_prompt":      "pathological photo of cancer-associated stroma",
+        "class_prompt":         "pathological photo of cancer-associated stroma",
+        "instance_data_dir":    "./data/pathmnist/cancer-associated stroma",
+        "class_data_dir":       "./data/pathmnist/cancer-associated stroma" 
+    },
+    {
+        "instance_prompt":      "pathological photo of colorectal adenocarcinoma epithelium",
+        "class_prompt":         "pathological photo of colorectal adenocarcinoma epithelium",
+        "instance_data_dir":    "./data/pathmnist/colorectal adenocarcinoma epithelium",
+        "class_data_dir":       "./data/pathmnist/colorectal adenocarcinoma epithelium" 
+    },
+    {
+        "instance_prompt":      "pathological photo of debris",
+        "class_prompt":         "pathological photo of debris",
+        "instance_data_dir":    "./data/pathmnist/debris",
+        "class_data_dir":       "./data/pathmnist/debris" 
+    },
+    {
+        "instance_prompt":      "pathological photo of lymphocytes",
+        "class_prompt":         "pathological photo of lymphocytes",
+        "instance_data_dir":    "./data/pathmnist/lymphocytes",
+        "class_data_dir":       "./data/pathmnist/lymphocytes" 
+    },
+    {
+        "instance_prompt":      "pathological photo of mucus",
+        "class_prompt":         "pathological photo of mucus",
+        "instance_data_dir":    "./data/pathmnist/mucus",
+        "class_data_dir":       "./data/pathmnist/mucus" 
+    },
+    {
+        "instance_prompt":      "pathological photo of normal colon mucosa",
+        "class_prompt":         "pathological photo of normal colon mucosa",
+        "instance_data_dir":    "./data/pathmnist/normal colon mucosa",
+        "class_data_dir":       "./data/pathmnist/normal colon mucosa" 
+    },
+    {
+        "instance_prompt":      "pathological photo of smooth muscle",
+        "class_prompt":         "pathological photo of smooth muscle",
+        "instance_data_dir":    "./data/pathmnist/smooth muscle",
+        "class_data_dir":       "./data/pathmnist/smooth muscle" 
+    }
+
+
+
+] 

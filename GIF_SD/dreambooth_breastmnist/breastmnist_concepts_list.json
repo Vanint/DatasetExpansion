@@ -1,0 +1,14 @@
+[
+    {
+        "instance_prompt":      "Ultrasound image of malignant breast",
+        "class_prompt":         "Ultrasound image of malignant breast",
+        "instance_data_dir":    "./data/breastmnist/malignant",
+        "class_data_dir":       "./data/breastmnist/malignant"
+    },
+    {
+        "instance_prompt":      "Ultrasound image of benign breast",
+        "class_prompt":         "Ultrasound image of benign breast",
+        "instance_data_dir":    "./data/breastmnist/normal, benign",
+        "class_data_dir":       "./data/breastmnist/normal, benign" 
+    } 
+] 
