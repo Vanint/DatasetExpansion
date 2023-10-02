@@ -468,6 +468,13 @@ cd ../
 
 Please fine-tune the original stable diffusion based on https://github.com/XavierXiao/Dreambooth-Stable-Diffusion
 
+Download the code, and run the provided launch script:
+
+```
+cd dreambooth_organsmnist
+bash organsmnist_launch.sh 
+```
+
 Please name the checkpoint as organsmnist_tuned_sd.ckpt
 
 
@@ -535,7 +542,14 @@ cd ../
 
 Please fine-tune the original stable diffusion based on https://github.com/XavierXiao/Dreambooth-Stable-Diffusion
 
-Please name the checkpoint as organsmnist_tuned_sd.ckpt
+Download the code, and run the provided launch script:
+
+```
+cd dreambooth_pathmnist
+bash pathmnist_launch.sh 
+```
+
+Please name the checkpoint as pathmnist_tuned_sd.ckpt
 
 
 
@@ -602,7 +616,14 @@ cd ../
 
 Please fine-tune the original stable diffusion based on https://github.com/XavierXiao/Dreambooth-Stable-Diffusion
 
-Please name the checkpoint as organsmnist_tuned_sd.ckpt
+Download the code, and run the provided launch script:
+
+```
+cd dreambooth_breastmnist
+bash breastmnist_launch.sh 
+```
+
+Please name the checkpoint as breastmnist_tuned_sd.ckpt
 
 
 
