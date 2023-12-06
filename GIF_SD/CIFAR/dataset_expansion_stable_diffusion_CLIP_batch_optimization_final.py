@@ -605,8 +605,9 @@ def dataset_expansion(train_loader, model,GIF_model,  DDIM_sampler, epoch, use_c
         augmented_output_prob_top1 = torch.gather(augmented_output_prob,1,original_output_index1).mean() 
 
         mean_image_augmented_features = torch.mean(image_augmented_features, 0, keepdim=True).repeat([expanded_number_per_sample_each_epoch,1])
-        target_mean_image_augmented_features = F.log_softmax(mean_image_augmented_features) 
-        divergence =  kl_loss(mean_image_augmented_features, target_mean_image_augmented_features)
+        image_augmented_features =  F.log_softmax(image_augmented_features) 
+        target_mean_image_augmented_features = F.log_softmax(mean_image_augmented_features)  
+        divergence =  kl_loss(image_augmented_features, target_mean_image_augmented_features)
 
         Score = delta_entropy + augmented_output_prob_top1 + divergence
 
