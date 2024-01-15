@@ -140,7 +140,7 @@ cd Caltech
 
 * Download datasets: 
 
-Please download the Caltech101 dataset at https://www.kaggle.com/datasets/imbikramsaha/caltech-101 
+Please download the Caltech101 dataset at https://drive.google.com/file/d/1oqrf9-UmKaOBkK86c-0OAxLwkPNlCPWg/view?usp=sharing
 
 ```
 Please unzip it and name it as caltech101
