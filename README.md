@@ -325,7 +325,7 @@ cd flowers
 
 * Download datasets: 
 
-Please download the dataset at https://www.robots.ox.ac.uk/~vgg/data/flowers/102
+Please download the dataset at https://www.kaggle.com/c/oxford-102-flower-pytorch/data
 
 ```
 Please unzip it and name it as flowers
