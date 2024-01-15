@@ -201,7 +201,8 @@ cd Cars
 
 * Download datasets: 
 
-Please download the dataset at https://www.kaggle.com/datasets/jessicali9530/stanford-cars-dataset
+Please download the dataset at https://drive.google.com/file/d/1YJ5JuVaWOqVLtfID-SglbL9Y7_lrh67w/view?usp=sharing![image](https://github.com/Vanint/DatasetExpansion/assets/26360112/7596f818-e71b-4a35-9c5e-cfeeda868688)
+
 
 ```
 Please unzip it and name it as car
@@ -263,7 +264,7 @@ cd dtd
 
 * Download datasets: 
 
-Please download the dataset at https://www.robots.ox.ac.uk/~vgg/data/dtd
+Please download the dataset at https://drive.google.com/file/d/1Xq6vf4RNtXi_xsowNcWUOr3tv5U5rPRu/view?usp=sharing
 
 ```
 Please unzip it and name it as dtd
@@ -386,7 +387,7 @@ cd Pets
 
 * Download datasets: 
 
-Please download the dataset at https://www.robots.ox.ac.uk/~vgg/data/pets
+Please download the dataset at https://drive.google.com/file/d/17yfP7c7bLnN97fC-eWP2W9j3e6HEuL7H/view?usp=sharing
 
 ```
 Please unzip it and name it as pets
